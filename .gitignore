@@ -1,0 +1,36 @@
+# Ambientes Virtuais
+venv/
+env/
+ENV/
+
+# Arquivos de cache e banco de dados local
+*.db
+cnpj_cache.db
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários e compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+.mypy_cache/
+
+# Arquivos gerados pelo usuário
+*.json # Pode ser removido se quiser versionar resultados de exemplo
+*.csv
+*.txt
+*.html
+
+# Configurações do IDE
+.vscode/
+.idea/
+*.swp
+*.swo
